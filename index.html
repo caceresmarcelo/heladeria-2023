@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stilo.css">
+    
+</head>
+
+
+
+<body>
+    <header>
+        <h1> Helados TENTATE </h1>
+        <nav>
+          <ul>
+            <li><a href="./INICIO.HTML">Inicio</a></li>
+            <li><a href="./nuestros sabores.html">Nuestros sabores</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+    <script src="./Java.js"></script>
+
+<form id="formulario" onsubmit="return false;">
+  <h2>Selecciona tus gustos</h2>
+  <div>
+    <label for="gusto">Gusto:</label>
+    <select id="gusto" name="gusto">
+      <option value="chocolate">Chocolate</option>
+      <option value="frutilla">frutilla</option>
+      <option value="vainilla">Vainilla</option>
+      <option value="granizado">granizado</option>
+      <option value="flan">flan</option>
+      <option value="lemon pie">lemon pie</option>
+      <option value="limón">limón</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="cantidad">Cantidad:</label>
+    <select id="cantidad" name="cantidad">
+      <option value="0.25">1/4 kg</option>
+      <option value="0.5">1/2 kg</option>
+      <option value="1">1 kg</option>
+    </select>
+  </div>
+  <div>
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" name="precio" min="0">
+  </div>
+  <div>
+    <label for="pago">Método de pago:</label>
+    <select id="pago" name="pago">
+      <option value="efectivo">Efectivo (10% descuento)</option>
+      <option value="tarjeta">Tarjeta de crédito (17% recargo)</option>
+    </select>
+  </div>
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+  </div>
+  <script> src="./Java.js"</script>
+  <button onclick="calcularTotal()">Calcular total</button>
+
+</form>
+
+
+</body>
+<footer><p>© 2023 Venta de helados. Todos los derechos reservados.</p>
+</footer>
+</html>
+
+
+
+
+
+
+

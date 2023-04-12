@@ -1,0 +1,21 @@
+h2{
+    background-color: yellow;
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: center;
+    height: max-content;
+  }
+
+option{
+    background-color: rgb(233, 226, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+
+
